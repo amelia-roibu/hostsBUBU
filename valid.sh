@@ -22,4 +22,5 @@ cat /etc/hosts | while read -r ip name; do
     if [[ "$nslookup_ip" != "$ip" && -n "$nslookup_ip" ]]; then
         echo "Bogus IP for $name in /etc/hosts!"
     fi
+    echo "Roibu Amelia Maria"
 done
